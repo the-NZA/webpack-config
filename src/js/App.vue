@@ -1,35 +1,32 @@
 <template>
 	<div id="app">
-
-	<HelloWorld msg="Welcome to Your Vue.js App"/>
-	<p>some text</p>
-	<input v-model="test"
-		type="text">
-	<p> {{ test }} </p>
-	<button @click="testF">click me</button>
-
+		<HelloWorld msg="Welcome to Your Vue.js App" />
+		<p>some text</p>
+		<input v-model="test" type="text" />
+		<p>{{ test }}</p>
+		<button @click="testF">click me</button>
 	</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+	import HelloWorld from "./components/HelloWorld.vue";
 
-export default {
-	name: 'App',
-	components: {
-		HelloWorld
-	},
-	data(){
-		return {
-			test: ""
-		}
-	},
-	methods: {
-		testF(){
-			console.log("test method");
-		}
-	}
-}
+	export default {
+		name: "App",
+		components: {
+			HelloWorld,
+		},
+		data() {
+			return {
+				test: "",
+			};
+		},
+		methods: {
+			testF() {
+				console.log("test method");
+			},
+		},
+	};
 </script>
 
 <style>

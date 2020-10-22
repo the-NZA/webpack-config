@@ -1,0 +1,10 @@
+:root{
+	--main-color: #999999;
+	--mainColor: #12345678;
+}
+
+@media (max-width: 200px) {
+	:root{
+		--main-color: #888888;
+	}
+}

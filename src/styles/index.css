@@ -8,9 +8,9 @@
 @custom-selector :--heading h1, h2, h3, h4, h5, h6;
 
 body {
-  color: var(--mainColor);
-  font-family: system-ui;
-  overflow-wrap: break-word;
+	color: var(--mainColor);
+	font-family: system-ui;
+	overflow-wrap: break-word;
 }
 
 
@@ -44,9 +44,9 @@ body {
 }
 
 :--heading {
-  font-size: 2rem;
+	font-size: 2rem;
 
-  @media (--viewport-medium) {
-    margin: 0 auto;
-  }
+	@media (--viewport-medium) {
+		margin: 0 auto;
+	}
 }

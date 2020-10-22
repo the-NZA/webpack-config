@@ -79,6 +79,9 @@ module.exports = (_, opt) => {
 			overlay : true,
 			stats : {
 				moduleAssets : false,
+				modules : false,
+				chunks : false,
+				chlidren : false
 			},
 		},
 		module : {
